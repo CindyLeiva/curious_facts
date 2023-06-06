@@ -7,6 +7,10 @@
     --grey: rgba(207, 207, 207, 1);
 }
 
+body {
+    background: white;
+}
+
 *{
     font-size: "poppins";
     box-sizing: border-box;
@@ -14,9 +18,63 @@
 
 header {
     height: 100px;
-    background-color: rgba(210, 255, 152, 1);
+    background-color:var(--green);
     display: flex;
     margin: 0px;
     padding: 0px;
 }
+    
+.title-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
+}
+
+h1 {
+    font-size: 32px;
+    color: var(--darkgreen);
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.curious-facts {
+    width: 1200px;
+    height: 300px;
+    background-color: var(--grey);
+    font-size: 20px;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.container-buttons {
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+
+.button-exploration {
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    color: var(--darkgreen);
+    border-radius: 30px;
+    border: var(--green);
+    background: var(--green);
+}
+
+.button-favourite {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border: white;
+    border-radius: 30px;
+    background: white;
+    text-decoration: none;
+}
