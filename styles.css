@@ -25,50 +25,69 @@ header {
     padding: 0px;
 }
     
-.title-button{
+.title-button
+{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+    
 
 .favourite{
     overflow-y: scroll;
     padding: 16px;
 }
 
-h3{
-    font-size: 28px;
+h1 {
+    font-size: 32px;
     color: var(--darkgreen);
 }
 
-.facts-favourites{
+.curious-facts {
+    width: 1200px;
+    height: 300px;
     background-color: var(--grey);
-    height: 60px;
-    gap: 16px;
+    font-size: 20px;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
 }
 
-footer{
-    height: 2rem;
-    background-color: var(--green);
-    margin: 0px;
+.container-buttons {
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
 }
 
-@media (max-width: 576px) {
-    main {
-     height: 80vh;
-    }
+.button-exploration {
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+    color: var(--darkgreen);
+    border-radius: 30px;
+    border: var(--green);
+    background: var(--green);
+}
 
-    .title-button {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-   
+.button-favourite {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border: white;
+    border-radius: 30px;
+    background: white;
+    text-decoration: none;
+}
+
   
     
   
 
-}
+
 
 
 
