@@ -7,6 +7,10 @@
     --grey: rgba(207, 207, 207, 1);
 }
 
+body {
+    background: white;
+}
+
 *{
     font-size: "poppins";
     box-sizing: border-box;
@@ -20,6 +24,12 @@ header {
     margin: 0px;
     padding: 0px;
 }
+    
+.title-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 .favourite{
     overflow-y: scroll;
