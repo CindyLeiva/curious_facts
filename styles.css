@@ -10,13 +10,55 @@
 *{
     font-size: "poppins";
     box-sizing: border-box;
+    margin: 0px;
 }
 
 header {
-    height: 100px;
+    height: 4.5rem;
     background-color: rgba(210, 255, 152, 1);
     display: flex;
     margin: 0px;
     padding: 0px;
 }
+
+.favourite{
+    overflow-y: scroll;
+    padding: 16px;
+}
+
+h3{
+    font-size: 28px;
+    color: var(--darkgreen);
+}
+
+.facts-favourites{
+    background-color: var(--grey);
+    height: 60px;
+    gap: 16px;
+}
+
+footer{
+    height: 2rem;
+    background-color: var(--green);
+    margin: 0px;
+}
+
+@media (max-width: 576px) {
+    main {
+     height: 80vh;
+    }
+
+    .title-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   
+  
+    
+  
+
+}
+
+
 
