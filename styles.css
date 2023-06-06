@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --green: rgba(210, 255, 152, 1);
+    --darkgreen: rgba(87, 162, 116, 1);
+    --white: rgba(255, 255, 255, 1);
+    --grey: rgba(207, 207, 207, 1);
+}
+
+*{
+    font-size: "poppins";
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    background-color: rgba(210, 255, 152, 1);
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
