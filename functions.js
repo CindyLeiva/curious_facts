@@ -18,3 +18,11 @@ explorerButton.addEventListener('click', function () {
     });
 });
 
+favouriteButton.addEventListener('click', function () {
+  const favouriteFact = containerOfData.textContent;
+  if (favouriteFact) {
+      const newFactElement = document.createElement('p');
+      newFactElement.textContent = favouriteFact;
+      containerOfFavourites.appendChild(newFactElement);
+  }
+});
