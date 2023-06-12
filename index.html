@@ -21,11 +21,11 @@
                 <img src="./images/nerd-face.svg" alt="emoji de cara con lentes">  
             </div>
 
-            <div class="curious-facts"></div>
+            <div id="curious-fact" class="curious-facts"></div>
 
             <div class="container-buttons">
-                <button class="button-exploration">Explore</button>
-                <button class="button-favourite"><img src="./images/fav.svg" alt="Icono favorito corazón verde"></button>
+                <button id="button-exploration" class="button-exploration">Explore</button>
+                <button id="button-favourite" class="button-favourite"><img src="./images/fav.svg" alt="Icono favorito corazón verde"></button>
             </div>
 
         </section>
@@ -37,13 +37,18 @@
                 <h3>Favourite Facts</h3>
             </div>
 
-            <div class="facts-favourites"></div>
+            <div class="facts-favourites">
+                <ul class="list-favourites-container"></ul>
+            </div>
 
         </section>
     </main>
 
     <footer></footer>
-    <script src="./functions.js"></script>
+    <!-- <script type="module" src="./functions.js"></script>  -->
+    <script type="module" src="./randomFact/getRandomFact.js"></script>
+    <script type="module" src="./randomFact/favouriteFact.js"></script>
+
 </body>
 
-</html>
+</html> 

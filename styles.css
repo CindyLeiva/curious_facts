@@ -31,9 +31,11 @@ main{
     height: 90vh;
     /*min-height: 32rem;*/
     width: 100%;
+    gap: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: start;
+
 }
 
 .container-title{
@@ -108,10 +110,10 @@ h3{
 .facts-favourites{
     margin: 2rem;
     padding: 1.25rem;
-    height: 10rem;
-    gap: 2rem;
+    height: 16rem;
     border-radius: 4px;
     text-indent: 1rem;
+    gap: 1rem;
     box-shadow: 0px 4px 4px 0px var(--grey);
     display: flex;
     flex-direction: column;
