@@ -1,4 +1,5 @@
 let factList = [];
+
 function selectFavourites () {
     //Llamamos al contenedor del FACT
     const curiousFact = document.getElementById('curious-fact');
@@ -16,4 +17,4 @@ function selectFavourites () {
     };
 }
 document.getElementById('button-favourite').addEventListener('click', selectFavourites);
-// module.exports = { selectFavourites }
+module.exports = { selectFavourites };

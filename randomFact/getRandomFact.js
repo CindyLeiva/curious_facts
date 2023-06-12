@@ -26,4 +26,4 @@ async function getRandomFact() {
 }
 
 document.getElementById('button-exploration').addEventListener('click', getRandomFact)
-// module.exports = { getRandomFact ,deleteFact }
+module.exports = { getRandomFact ,deleteFact }
