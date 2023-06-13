@@ -7,7 +7,7 @@ function selectFavourites () {
     newFactLi.innerHTML = favFact;
     const favouriteFact = document.querySelector('.facts-favourites ul');
     if( factList.includes(newFactLi.innerHTML)) {
-        alert('This message already exist')
+        alert('This text already exist')
     }else{
         factList.push(newFactLi.innerHTML)
         favouriteFact.appendChild(newFactLi)
