@@ -21,4 +21,3 @@ describe('test deleteFact function', () => {
         expect(actualFact.textContent).toEqual('Facto de ejemplo');
     });
 });
-
